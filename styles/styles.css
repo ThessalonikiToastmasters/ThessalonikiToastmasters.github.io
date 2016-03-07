@@ -1,0 +1,235 @@
+@import "reset.css";
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #eee;
+    color: #000;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 0.75em;
+}
+
+.container {
+    background-color: #fff;
+    border: 1px solid #003f62;
+    margin: 0 auto;
+    overflow: auto;
+    width: 960px;
+}
+
+header#main {
+    background:url(../images/header.png) no-repeat center center; 
+    clear:both; 
+    height: 240px
+}
+
+h1 {
+    color: #fff;
+    font-size: 2.2em;
+    font-weight: 600;
+    padding-top: 95px;
+    padding-left: 310px;
+}
+
+aside {
+    float: right;
+    margin: 20px 20px;
+    width: 280px;
+}
+
+aside > section {
+    font-size: 1.2em;
+}
+aside  ul > li,
+aside  dl > dd {	
+    margin-bottom: 20px;
+}
+
+aside img {
+    margin-right: 10px;
+	margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+address {
+    display: inline;
+}
+
+#information {
+    color: #770c29;
+}
+
+#information header,
+#officers header  {	
+    font-size: 1.2em;  
+    padding-bottom: 10px;
+}
+
+#information header {
+    border-bottom: 1px solid #003f62;
+}
+
+#information  ul,
+#officers  dl {
+    margin-top: 20px;
+}
+
+#information  ul  > li {
+    border-bottom: 1px dotted #003f62;
+}
+
+#information a {
+    color: #770c29;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#information a:hover {
+    color: #cc3f54;
+}
+
+#officers {
+    color: #004164;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+#officers header {	
+    border-bottom: 1px solid #770c29;
+}
+
+#officers dl > dd {    
+    color: #888;
+    font-size: .875em;
+}
+
+#officers dl > dt {
+    margin-bottom: 5px;
+}
+
+#officers img {
+    float: left;
+    margin-right:  10px;
+    vertical-align: top;
+}
+
+#objective {
+    margin-top: 40px;
+}
+
+#objective p {
+    background-color: #faf4c2;
+    border: 1px dotted #003f62;
+    
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    
+    box-shadow: 0 5px 10px #aaa;
+    -webkit-box-shadow: 0 5px 10px #aaa;
+    -moz-box-shadow: 0 5px 10px #aaa;
+    
+    color: #003f62;
+    font-size: .875em;
+    line-height: 1.5em;
+    padding: 10px 8px;
+    text-align: justify;  
+}
+
+#schedule {    
+    border-right: 1px solid #aaa;
+    color: #333;
+    float: left;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 20px 20px;
+    width: 599px;
+}
+
+#schedule > header  {	
+    border-bottom: 1px solid #333;
+    font-size: 1.5em;  
+    margin-right: 20px;
+    padding-bottom: 7px;
+}
+
+#schedule > div {
+    margin-top: 20px;
+}
+
+#schedule > div > div.session {
+    border-bottom: 1px dashed #aaa;    
+    overflow: auto;
+    margin: 0 20px 20px 0;
+    padding-bottom: 10px;
+}
+
+#schedule > div div.time {
+    border: 1px solid #770c29;
+    color:#770c29;
+
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50%;
+
+    float: left;
+    font-weight: 600;
+    text-align: center;
+    line-height: 75px;
+
+    height: 75px;
+    width: 75px;
+}
+
+#schedule > div div.role {
+    border: 1px solid #333;
+    float: right;   
+    width: 480px;
+}
+
+#schedule > div div.role dt {
+    background-color: #003550;
+    color: #fff;
+    font-size: .9em;
+    padding: 5px;
+}
+
+#schedule > div div.role dt.finish {
+    background-color: #770c29;
+}
+
+#schedule > div div.role dd {
+    color: #003550;
+    padding: 10px;
+}
+
+#schedule > div div.role dd.description{
+    color:#888;
+    font-size: .875em;
+    padding: 0px 10px 10px;
+}
+
+#schedule > div div.role dd.finish{
+    padding: 5px 10px 10px;
+}
+
+/* #schedule > div div.role dt.secondary-role {
+    background-color: #666666;
+}
+
+#schedule > div div.role dd.secondary-role {
+    color: #666666;
+} */
+
+#schedule > div div#break {
+    background-color: #770c29;
+    color: #fff;
+    float: right;
+    height: 55px;
+    line-height: 55px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 460px;
+}
